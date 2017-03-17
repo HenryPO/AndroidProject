@@ -33,7 +33,7 @@ public class DataHelper {
 	private DataHelper() {
 		preferenceHelper = new SharePreferenceHelper();
 	}
-
+ 
 	/**
 	 * 
 	 * @Description:获取SharedPreferences版本号
@@ -47,7 +47,7 @@ public class DataHelper {
 	}
 
 	/**
-	 * 
+	 *  
 	 * @Description:设置SharedPreferences版本号
 	 * @param versionNumber
 	 *            void

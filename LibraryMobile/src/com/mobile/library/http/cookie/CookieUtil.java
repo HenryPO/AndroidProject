@@ -21,9 +21,9 @@ import android.util.Log;
 /**
  * 
  * @ClassName: CookieUtil
- * @Description: cookie绠＄悊宸ュ叿
+ * @Description: cookie管理工具
  * @author lhy
- * @date 2014-10-9 涓婂崍11:13:04
+ * @date 2014-10-9 上午11:13:04
  * 
  */
 public class CookieUtil implements CookieStore {

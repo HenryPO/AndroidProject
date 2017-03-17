@@ -28,6 +28,15 @@ import com.mobile.library.utils.StringUtil;
  * @author LHY <br>
  */
 public class SDDataUtil {
+	 /**
+     * 判断SD卡是否可用
+     *
+     * @return true : 可用<br>false : 不可用
+     */
+    public static boolean isSDCardEnable() {
+        return Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState());
+    }
+
 	/**
 	 * 
 	 * @Description 删除文件或者文件夹(所有内容)

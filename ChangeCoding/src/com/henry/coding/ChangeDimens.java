@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ChangeDimens {
-	public final static String rootPath = "D:\\Android Studio\\Work\\Java\\ChangeCoding\\";
+	public final static String rootPath = "D:\\Android Studio\\Work\\git\\AndroidProject\\ChangeCoding\\";
 	public final static String path = rootPath + "dimens.xml";
 	private final static String newCoding = "UTF-8";
 
@@ -51,7 +51,8 @@ public class ChangeDimens {
 		// 小米平板2
 		bean.makeDimens("xhdpi", 1536, 2048, 2, true);
 		//pos机
-		bean.makeDimens("mdpi", 600, 1024, 1f, true);
+		bean.makeDimens("mdpi", 768, 1024, 1f, true);
+		bean.makeDimens("hdpi", 1080, 1920, 1.5f, true);
 
 	}
 

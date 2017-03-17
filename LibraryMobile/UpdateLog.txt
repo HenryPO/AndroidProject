@@ -27,3 +27,18 @@ V1.0.0.5
 2016-10-19 15:18:21
 修改StringUtil.java
 	添加 Null字符串处理方法
+	
+V1.0.0.6
+2016年12月22日10:21:20
+修改MLog.java
+	添加关闭Debug方法	
+V1.0.0.7
+2017年1月10日14:40
+修改StringUtil.java
+	添加方法formatDouble(String pattern, double d)
+			formatDouble(double d)
+			formatFLoat(String pattern, float f)
+			formatFLoat(float f)
+V1.0.1.8
+2017年1月22日16:12:03
+添加工具类
